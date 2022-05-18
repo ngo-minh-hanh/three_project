@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txt_dialog_insert_cv"
+        android:text="Cập nhật công việc"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edt_dialog_insert_vc"
+        android:layout_below="@+id/txt_dialog_insert_cv"
+        android:layout_marginTop="15dp"
+        android:hint="Nhập công việc"
+        android:textSize="25dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_dialog_insert_vc"
+        android:weightSum="2"
+        android:padding="5dp"
+        android:layout_marginTop="15dp">
+        <Button
+            android:id="@+id/btn_dialog_xacnhan_cv"
+            android:layout_below="@+id/edt_dialog_insert_vc"
+            android:layout_marginTop="15dp"
+            android:text="XÁC NHẬN "
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/btn_dialog_huy_cv"
+            android:layout_below="@+id/edt_dialog_insert_vc"
+            android:layout_marginTop="15dp"
+            android:text="HỦY"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:gravity="center"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_weight="8"
+        android:id="@+id/txt_Ghichu"
+        android:text="ghi chú"
+        android:textSize="40dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/img_insert"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:src="@drawable/ic_baseline_create_24" />
+
+    <ImageView
+        android:layout_weight="1"
+        android:id="@+id/img_delete"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_round_backspace_24" />
+
+
+</LinearLayout>
